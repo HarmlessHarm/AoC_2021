@@ -8,9 +8,6 @@ with open('day1/input_1.txt', 'r') as f:
         metal = int(metal)
         if metal > music:
             world += 1
-            strings.append("1")
-        else:
-            strings.append("-1")
         
         music = metal
 
